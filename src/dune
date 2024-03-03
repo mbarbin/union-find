@@ -1,0 +1,21 @@
+(library
+ (name union_find)
+ (public_name union-find)
+ (flags
+  :standard
+  -w
+  +a-4-40-41-42-44-45-48-66
+  -warn-error
+  +a
+  -open
+  Base)
+ (libraries base)
+ (preprocess
+  (pps
+   ppx_compare
+   ppx_enumerate
+   ppx_hash
+   ppx_here
+   ppx_let
+   ppx_sexp_conv
+   ppx_sexp_value)))
