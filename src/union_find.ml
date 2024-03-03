@@ -8,8 +8,6 @@
  * See the file MLton-LICENSE for details.
  *)
 
-open! Import
-
 (*
    {v
            Root
