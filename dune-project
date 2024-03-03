@@ -17,39 +17,12 @@
 
 (package
  (name union-find)
- (synopsis "Publishing [Core.Union_find] as a standalone package to use with [Base]")
+ (synopsis
+  "Publishing [Core.Union_find] as a standalone package to use with [Base]")
  (depends
   (ocaml
    (>= 5.1))
   (base
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_compare
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_enumerate
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_hash
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_here
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_let
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_sexp_conv
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_sexp_value
    (and
     (>= v0.16)
     (< v0.17)))))
