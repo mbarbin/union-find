@@ -10,7 +10,7 @@ doc: "https://mbarbin.github.io/union-find/"
 bug-reports: "https://github.com/mbarbin/union-find/issues"
 depends: [
   "dune" {>= "3.16"}
-  "ocaml" {>= "5.1"}
+  "ocaml" {>= "5.2"}
   "base" {>= "v0.17" & < "v0.18"}
   "odoc" {with-doc}
 ]
