@@ -16,7 +16,7 @@ The original code has a notice that it was based on the MLton library
 set/disjoint.fun, which copyright notice has been preserved in the file.
 See the file MLton-LICENSE for details.
 
-## Code documentation
+## Code Documentation
 
 The code documentation of the latest release is built with `odoc` and published
 to `GitHub` pages [here](https://mbarbin.github.io/union-find).
