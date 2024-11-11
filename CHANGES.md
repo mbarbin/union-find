@@ -2,8 +2,12 @@
 
 ### Added
 
-- Enabled code coverage with `bisect_ppx`.
-- Copy original tests from `core`.
+- Enabled code coverage with `bisect_ppx` (#1, @mbarbin).
+- Copy original tests from `core` (#1, @mbarbin).
+
+### Removed
+
+- Remove `base` dependency (#2, @mbarbin).
 
 ## v0.17.1 (2024-07-26)
 

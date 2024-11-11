@@ -11,7 +11,6 @@ bug-reports: "https://github.com/mbarbin/union-find/issues"
 depends: [
   "dune" {>= "3.16"}
   "ocaml" {>= "4.14"}
-  "base" {>= "v0.16" & < "v0.18"}
   "odoc" {with-doc}
 ]
 build: [

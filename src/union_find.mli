@@ -14,7 +14,7 @@
     equivalence class that is associated with a single value of type ['a]. *)
 type 'a t
 
-include Invariant.S1 with type 'a t := 'a t
+val invariant : _ -> _ t -> unit
 
 (** [create v] returns a new object in its own equivalence class that has value [v]. *)
 val create : 'a -> 'a t
