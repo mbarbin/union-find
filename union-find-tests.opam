@@ -9,9 +9,10 @@ doc: "https://mbarbin.github.io/union-find/"
 bug-reports: "https://github.com/mbarbin/union-find/issues"
 depends: [
   "dune" {>= "3.16"}
-  "ocaml" {>= "5.2"}
+  "ocaml" {>= "4.14"}
   "ocamlformat" {with-dev-setup & = "0.26.2"}
-  "base" {>= "v0.17" & < "v0.18"}
+  "base" {>= "v0.16" & < "v0.18"}
+  "bisect_ppx" {with-dev-setup & >= "2.8.3"}
   "expect_test_helpers_core" {>= "v0.16" & < "v0.18"}
   "ppx_expect" {>= "v0.16" & < "v0.18"}
   "ppxlib" {>= "0.33"}

@@ -21,10 +21,10 @@
   "Publishing [Core.Union_find] as a standalone package to use with [Base]")
  (depends
   (ocaml
-   (>= 5.2))
+   (>= 4.14))
   (base
    (and
-    (>= v0.17)
+    (>= v0.16)
     (< v0.18)))))
 
 (package
@@ -32,14 +32,14 @@
  (synopsis "Tests for union-find")
  (depends
   (ocaml
-   (>= 5.2))
+   (>= 4.14))
   (ocamlformat
    (and
     :with-dev-setup
     (= 0.26.2)))
   (base
    (and
-    (>= v0.17)
+    (>= v0.16)
     (< v0.18)))
   (bisect_ppx
    (and
