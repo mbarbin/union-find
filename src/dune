@@ -3,4 +3,8 @@
  (public_name union-find)
  (flags :standard -w +a-4-40-41-42-44-45-48-66 -warn-error +a -open Base)
  (libraries base)
+ (instrumentation
+  (backend bisect_ppx))
+ (lint
+  (pps ppx_js_style -check-doc-comments))
  (preprocess no_preprocessing))

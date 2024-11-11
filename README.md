@@ -1,6 +1,7 @@
 # union-find
 
 [![CI Status](https://github.com/mbarbin/union-find/workflows/ci/badge.svg)](https://github.com/mbarbin/union-find/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/mbarbin/union-find/badge.svg?branch=main)](https://coveralls.io/github/mbarbin/union-find?branch=main)
 
 This library offers a repackaging of `Core`'s `Union_find`, as a standalone opam package for using with `Base`.
 

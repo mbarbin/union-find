@@ -1,3 +1,10 @@
+## v0.17.2 (unreleased)
+
+### Added
+
+- Enabled code coverage with `bisect_ppx`.
+- Copy original tests from `core`.
+
 ## v0.17.1 (2024-07-26)
 
 ### Added
