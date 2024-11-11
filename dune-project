@@ -18,7 +18,7 @@
 (package
  (name union-find)
  (synopsis
-  "Publishing [Core.Union_find] as a standalone package to use with [Base]")
+  "Publishing [Core.Union_find] as a standalone package with no dependency")
  (depends
   (ocaml
    (>= 4.14))))

@@ -3,11 +3,15 @@
 [![CI Status](https://github.com/mbarbin/union-find/workflows/ci/badge.svg)](https://github.com/mbarbin/union-find/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/github/mbarbin/union-find/badge.svg?branch=main)](https://coveralls.io/github/mbarbin/union-find?branch=main)
 
-This library offers a repackaging of `Core`'s `Union_find`, as a standalone opam package for using with `Base`.
+This library offers a repackaging of `Core`'s `Union_find`, as a standalone opam package with no dependency.
 
 Original code at https://github.com/janestreet/core/
 
-The code required almost no modifications (simply removed `open Import`) in order to remove dependencies into `Core` and solely depend on `Base` instead, making it available in more contexts, without requiring to add a dependency into `Core` and `Core_kernel`.
+The code required almost no modifications in order to remove dependencies into `Core`, making it available in more contexts:
+
+- Removed `open Import`;
+- Use functions from stdlib (`List.iter`, `==`, etc.);
+- Inline type of `Invariant.S1`.
 
 The original code has a notice that it was based on the MLton library set/disjoint.fun, which copyright notice has been preserved in the file. See the file MLton-LICENSE for details.
 
