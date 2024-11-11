@@ -70,7 +70,7 @@ let rec compress t ~inner_node ~inner ~descendants =
     (* t is the root of the tree.
        Re-point all descendants directly to it by setting them to [Inner t].
        Note: we don't re-point [inner] as it already points there. *)
-    List.iter descendants ~f:(fun t -> t.node <- inner_node);
+    List.iter (fun t -> t.node <- inner_node) descendants;
     t, r
   | Inner t' as node ->
     compress t' ~inner_node:node ~inner:t ~descendants:(inner :: descendants)
@@ -93,12 +93,12 @@ let root t =
 let rank t = (root t).rank
 let get t = (root t).value
 let set t v = (root t).value <- v
-let same_class t1 t2 = phys_equal (root t1) (root t2)
+let same_class t1 t2 = root t1 == root t2
 
 let union t1 t2 =
   let t1, r1 = representative t1 in
   let t2, r2 = representative t2 in
-  if phys_equal r1 r2
+  if r1 == r2
   then ()
   else (
     let n1 = r1.rank in

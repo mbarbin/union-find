@@ -21,11 +21,7 @@
   "Publishing [Core.Union_find] as a standalone package to use with [Base]")
  (depends
   (ocaml
-   (>= 4.14))
-  (base
-   (and
-    (>= v0.16)
-    (< v0.18)))))
+   (>= 4.14))))
 
 (package
  (name union-find-tests)
