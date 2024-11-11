@@ -22,6 +22,17 @@
  (depends
   (ocaml
    (>= 5.2))
+  (base
+   (and
+    (>= v0.17)
+    (< v0.18)))))
+
+(package
+ (name union-find-tests)
+ (synopsis "Tests for union-find")
+ (depends
+  (ocaml
+   (>= 5.2))
   (ocamlformat
    (and
     :with-dev-setup
@@ -29,4 +40,20 @@
   (base
    (and
     (>= v0.17)
-    (< v0.18)))))
+    (< v0.18)))
+  (bisect_ppx
+   (and
+    :with-dev-setup
+    (>= 2.8.3)))
+  (expect_test_helpers_core
+   (and
+    (>= v0.16)
+    (< v0.18)))
+  (ppx_expect
+   (and
+    (>= v0.16)
+    (< v0.18)))
+  (ppxlib
+   (>= 0.33))
+  (union-find
+   (= :version))))
