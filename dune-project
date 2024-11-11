@@ -52,7 +52,7 @@
   (ppx_js_style
    (and
     :with-dev-setup
-    (>= v0.17)
+    (>= v0.16)
     (< v0.18)))
   (ppxlib
    (>= 0.33))
