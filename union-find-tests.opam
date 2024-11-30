@@ -8,7 +8,7 @@ homepage: "https://github.com/mbarbin/union-find"
 doc: "https://mbarbin.github.io/union-find/"
 bug-reports: "https://github.com/mbarbin/union-find/issues"
 depends: [
-  "dune" {>= "3.16"}
+  "dune" {>= "3.17"}
   "ocaml" {>= "4.14"}
   "ocamlformat" {with-dev-setup & = "0.27.0"}
   "base" {>= "v0.16" & < "v0.18"}
