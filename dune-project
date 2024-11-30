@@ -15,6 +15,8 @@
 
 (documentation "https://mbarbin.github.io/union-find/")
 
+(implicit_transitive_deps false)
+
 (package
  (name union-find)
  (synopsis
