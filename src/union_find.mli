@@ -25,7 +25,8 @@ val get : 'a t -> 'a
 (** [set t v] sets the value of the class of [t] to [v]. *)
 val set : 'a t -> 'a -> unit
 
-(** [same_class t1 t2] returns true iff [t1] and [t2] are in the same equivalence class. *)
+(** [same_class t1 t2] returns true iff [t1] and [t2] are in the same equivalence
+    class. *)
 val same_class : 'a t -> 'a t -> bool
 
 (** [union t1 t2] makes the class of [t1] and the class of [t2] be the same (if they are
