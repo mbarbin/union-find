@@ -59,4 +59,8 @@
   (ppxlib
    (>= 0.33))
   (union-find
-   (= :version))))
+   (= :version))
+  (sherlodoc
+   (and
+    :with-doc
+    (>= 0.2)))))
