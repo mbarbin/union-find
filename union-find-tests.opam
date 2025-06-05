@@ -11,11 +11,11 @@ depends: [
   "dune" {>= "3.17"}
   "ocaml" {>= "4.14"}
   "ocamlformat" {with-dev-setup & = "0.27.0"}
-  "base" {>= "v0.16" & < "v0.18"}
+  "base" {>= "v0.16"}
   "bisect_ppx" {with-dev-setup & >= "2.8.3"}
-  "expect_test_helpers_core" {>= "v0.16" & < "v0.18"}
-  "ppx_expect" {>= "v0.16" & < "v0.18"}
-  "ppx_js_style" {with-dev-setup & >= "v0.16" & < "v0.18"}
+  "expect_test_helpers_core" {>= "v0.16"}
+  "ppx_expect" {>= "v0.16"}
+  "ppx_js_style" {with-dev-setup & >= "v0.16"}
   "ppxlib" {>= "0.33"}
   "union-find" {= version}
   "sherlodoc" {with-doc & >= "0.2"}

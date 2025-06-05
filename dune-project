@@ -46,26 +46,19 @@
     :with-dev-setup
     (= 0.27.0)))
   (base
-   (and
-    (>= v0.16)
-    (< v0.18)))
+   (>= v0.16))
   (bisect_ppx
    (and
     :with-dev-setup
     (>= 2.8.3)))
   (expect_test_helpers_core
-   (and
-    (>= v0.16)
-    (< v0.18)))
+   (>= v0.16))
   (ppx_expect
-   (and
-    (>= v0.16)
-    (< v0.18)))
+   (>= v0.16))
   (ppx_js_style
    (and
     :with-dev-setup
-    (>= v0.16)
-    (< v0.18)))
+    (>= v0.16)))
   (ppxlib
    (>= 0.33))
   (union-find
