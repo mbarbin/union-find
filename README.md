@@ -1,5 +1,9 @@
 # union-find
 
+:warning: This repository is now a public archive. I'm not using it anymore and will not be maintaining it.
+
+---
+
 [![CI Status](https://github.com/mbarbin/union-find/workflows/ci/badge.svg)](https://github.com/mbarbin/union-find/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/github/mbarbin/union-find/badge.svg?branch=main)](https://coveralls.io/github/mbarbin/union-find?branch=main)
 
